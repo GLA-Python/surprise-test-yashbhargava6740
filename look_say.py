@@ -19,4 +19,4 @@ def look_say(n):
             st += o +'\n'
             x = int(o)
     return st 
-print(look_say(int(input()))[:-1])
+print(look_say(int(input()))[:-1]) 
