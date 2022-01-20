@@ -18,5 +18,5 @@ def look_say(n):
                 o = str(c) + str(y) + str(o) 
             st += o +'\n'
             x = int(o)
-    return st
-print(look_say(int(input()))[-1])
+    return st 
+print(look_say(int(input()))[:-1])
