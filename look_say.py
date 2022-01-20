@@ -1,6 +1,6 @@
 def look_say(n):
     st = ''
-    if n > 1:
+    if n >= 1:
         x = 1
         print(x)
         for i in range(1, n):
